@@ -34,7 +34,17 @@
 
 ## HTTP optimisation
 
-*   Add some more points here...
+*   Currently the SSL certificate is only being activated on the main page www.cmd-amsterdam.nl . To activate the SSL certificate on all the other pages there may not be any conflicting http references. Currently the images have an http reference instead of an https reference. To change all the images to https, all images should be reuploaded to the Wordpress image library while the Wordpress website itself is set to https. All images on the pages should be replaced with the right images whith an https reference. 
+
+While an SSL certificate does not directly influence page load speed, it does come up in speed insight tests and results in a lowered overall score. It also provides visitors of the website with a sense of security, and it also makes the website in general more professional. 
+
+example of an image on the https://www.cmd-amsterdam.nl/cmd/ page with an http reference:
+http://www.cmd-amsterdam.nl/wp-content/uploads/2013/11/cmd-core-nl.png
+
+For sources and detailed info, check out:
+https://premium.wpmudev.org/blog/replacing-image-links/
+https://www.inmotionhosting.com/support/website/wordpress/enable-https
+
 
 ### HTTP/1
 
