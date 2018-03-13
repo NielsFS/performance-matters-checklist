@@ -82,7 +82,9 @@
 
 ### Images
 
-*   Add some more points here...
+*   The images on the website cmd-amsterdam.nl can be better optimized and compressed. You can see an example of one of the banner foto's: https://photos.app.goo.gl/n3DnLrPbXGNRexe72 . A great tool for compressing images is http://optimizilla.com/ . The great thing about this tool is that it is free, is a really good compressor and does not have a file size limit. 
+
+As you can see in the example image the original image size went from 567k to 147k, a 74% reduction. 
 
 ### CSS
 
